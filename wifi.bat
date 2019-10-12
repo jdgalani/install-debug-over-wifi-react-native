@@ -1,4 +1,5 @@
 @echo off
+:Restart
 ECHO Trying to Disconnect all devices first...
 adb disconnect
 
@@ -22,5 +23,7 @@ FOR /F "delims=" %%A IN ('%COMMAND%') DO (
 )
 ECHO Problem occured while fetching your device's IP Address.
 ECHO Make sure Device is Unlocked and Connected to same Network as this Machine.
+set /p id="Press enter to start again"
+GOTO :Restart
 :End
 set /p id="Press enter to Quit"
