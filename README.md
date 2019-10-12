@@ -2,7 +2,7 @@
 You can Install and Debug your App to your device over wifi by just one click for windows.
 
 
-Download this file and double click to run it.
+Download this wifi.bat file and double click to run it.
 Make sure your device is connected to machine and same network as your machine while you run this file... 
 you can plug it out afterwards.
 
